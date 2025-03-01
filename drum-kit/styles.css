@@ -1,0 +1,98 @@
+.calcu{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 5px;
+    gap: 10px;
+}
+
+body{
+    font-family: "Gill Sans", sans-serif;
+    background-color: wheat;
+}
+
+.drum {
+    height: 100px;
+    width: 100%;
+    border-radius: 30%;
+    border: none;
+    border-style: dotted;
+    cursor: pointer;
+    background-color: white;
+}
+.set{
+    display: flex;
+    margin: 0 auto;
+    gap: 10px;
+    width: 90vw;
+}
+
+.w{
+    font-size: 40px;
+    font-weight: bold;
+    background-image: url(assets/images/crash.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 20px;
+}
+
+.a{
+    font-size: 40px;
+    font-weight: bold;
+    background-image: url(assets/images/kick.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 10px;
+}
+
+.s{
+    font-size: 40px;
+    font-weight: bold;
+    background-image: url(assets/images/snare.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 20px;
+}
+
+.d{
+    font-size: 40px;
+    font-weight: bold;
+    background-image: url(assets/images/tom1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 20px;
+}
+
+.j{
+    font-size: 40px;
+    font-weight: bold;
+    background-image: url(assets/images/tom2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 20px;
+}
+
+.k{
+    font-size: 40px;
+    font-weight: bold;
+    background-image: url(assets/images/tom3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 20px;
+}
+
+.l{
+    font-size: 40px;
+    font-weight: bold;
+    background-image: url(assets/images/tom4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 20px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <style>
+        h1{
+            text-align: center; 
+            color: red; 
+            padding: 10px;
+            font-weight: bold;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 3rem;
+        }
+        .main{
+            height: 70vh; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            gap: 20px;
+        }
+        .dice{
+            border: none;
+            height: 60%; 
+            width: 40%;
+            font-size: 2rem;
+        }
+        .dice h2{
+            text-align: center;
+            position: relative;
+            top: -50%;
+        }
+        .dice img{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            top: -54%;
+            visibility: visible;
+            object-fit: contain;
+        }
+        button{
+            display: block;
+            margin: 0 auto;
+            padding: 10px 20px;
+            font-size: 1.5rem;
+            background-color: aquamarine;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            position: relative;
+            top: -50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>DICE GAME</h1>
+    <div class="main">
+        <div class="dice">
+            <h2>Player 1</h2>
+            <img class="img1" src="images/dice1.png" alt="dice 1">
+        </div>
+        <div class="dice">
+            <h2>Player 2</h2>
+            <img class="img2" src="images/dice2.png" alt="dice 2">
+        </div>
+    </div>
+    <button onclick="playDice()">Roll Dice</button>
+    <script src="dice.js"></script>
+</body>
+</html>
