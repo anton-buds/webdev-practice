@@ -96,3 +96,9 @@ body{
     background-repeat: no-repeat;
     background-position-y: 20px;
 }
+
+.pressed{
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: .3;
+    transform: skew(3deg);
+}
