@@ -1,0 +1,20 @@
+{
+  "name": "learning-npm",
+  "version": "1.0.0",
+  "description": "I'm learning about npm from Angela Yu!",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anton Buduan",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^12.4.3",
+    "qr-image": "^3.2.0",
+    "sillyname": "^0.1.0",
+    "superheroes": "^4.0.0"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
