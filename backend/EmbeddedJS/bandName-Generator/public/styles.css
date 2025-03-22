@@ -1,0 +1,42 @@
+html{
+    overflow: hidden;
+}
+footer{
+    display:flex;
+    position: relative;
+    left: 0;
+    bottom: 0%;
+    width: 100%;
+    transform: translateY(250px);
+    padding-left: 40px;
+}
+
+body{
+    /*center an element */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    width: 100vw;
+    background-color: #EBE8DB;
+    color: #B03052;
+}
+
+input{
+    border: transparent rgba(0, 0, 0, .5);
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    pointer-events: stroke;
+}
+
+input:hover{
+    background-color: #B03052;
+    border: transparent rgba(37, 37, 37, 0.604);
+    color: #EBE8DB;
+}
