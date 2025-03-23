@@ -6,6 +6,7 @@ const port = 3000;
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
+
 // Logic
 
 
@@ -17,6 +18,7 @@ app.get('/', (req, res) => {
 app.get('/essay', (req, res) => {
     res.render('essay.ejs');
 });
+
 app.get('/bio', (req, res) => {
     res.render('bio.ejs');
 });
